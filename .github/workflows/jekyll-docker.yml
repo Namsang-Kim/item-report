@@ -1,0 +1,36 @@
+name: 자동 이미지 업데이트
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # 매일 오전 8시에 실행
+  workflow_dispatch: # 수동 실행도 가능
+
+jobs:
+  update-trend:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up R
+      uses: rocker/r-ver@v4.2.2
+      with:
+        r_version: '4.2.2'
+
+    - name: Install R dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install libcurl4-openssl-dev libxml2-dev libssl-dev
+        R -e "install.packages(c('ggplot2', 'dplyr', 'gridExtra', 'data.table'))"
+
+    - name: Run R script to generate plot
+      run: |
+        Rscript update_trend.R  # R 스크립트를 실행하여 이미지 생성
+
+    - name: Commit and push changes
+      uses: EndBug/add-and-commit@v7
+      with:
+        author_name: 'GitHub Actions'
+        author_email: 'actions@github.com'
+        message: '자동 업데이트: 트렌드 분석 이미지 업데이트'
