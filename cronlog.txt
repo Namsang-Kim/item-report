@@ -1,0 +1,1373 @@
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Error in get_query(to = "prod", "\n  SELECT * \n  FROM dashboard.site_mst \n  WHERE site_id = {SITE_ID}",  : 
+  could not find function "get_query"
+Execution halted
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Error in (function (cond)  : 
+  error in evaluating the argument 'drv' in selecting a method for function 'dbConnect': there is no package called ‘bit’
+Calls: get_query ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+
+NOTE: Dependency discovery took 1500 seconds during snapshot.
+Consider using .renvignore to ignore files, or switching to explicit snapshots.
+See `?renv::dependencies` for more information.
+
+- /home/namsangkim/R/x86_64-pc-linux-gnu-library/4.0/BH/include/boost/asio/detail        : 222 files
+- /home/namsangkim/R/x86_64-pc-linux-gnu-library/4.0/BH/include/boost                    : 225 files
+- /home/namsangkim/R/x86_64-pc-linux-gnu-library/4.0/qap/qaplib                          : 264 files
+- /home/namsangkim/R/x86_64-pc-linux-gnu-library/4.0/BH/include/boost/spirit/include     : 317 files
+- /home/namsangkim/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits: 598 files
+
+- The project is out-of-sync -- use `renv::status()` for details.
+Warning messages:
+1: In if (grepl("-display$", label)) return(TRUE) :
+  the condition has length > 1 and only the first element will be used
+2: In if (grepl("-display$", label)) return(TRUE) :
+  the condition has length > 1 and only the first element will be used
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+In existsInFrame(n, envenv) :
+  call dbDisconnect() when finished working with a connection
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 50 or more warnings (use warnings() to see the first 50)
+character(0)
+[1] "[main 213be10] 리포트 자동 갱신"                   
+[2] " 2 files changed, 13 insertions(+), 2 deletions(-)"
+[3] " rewrite top_items_report.png (89%)"               
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f get: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f store: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Namsang-Kim/item-report.git        
+To https://github.com/namsang-kim/item-report.git
+   2d9a577..213be10  main -> main
+character(0)
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+Loading required package: DBI
+Warning messages:
+1: package ‘RMySQL’ was built under R version 4.0.5 
+2: package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:data.table’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+In for (ns in list(...)) namespaceImportFrom(self, asNamespace(ns),  :
+  call dbDisconnect() when finished working with a connection
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 50 or more warnings (use warnings() to see the first 50)
+character(0)
+ [1] "On branch main"                                                           
+ [2] "Your branch is up to date with 'origin/main'."                            
+ [3] ""                                                                         
+ [4] "Changes not staged for commit:"                                           
+ [5] "  (use \"git add <file>...\" to update what will be committed)"           
+ [6] "  (use \"git restore <file>...\" to discard changes in working directory)"
+ [7] "\tmodified:   auto_report.R"                                              
+ [8] ""                                                                         
+ [9] "Untracked files:"                                                         
+[10] "  (use \"git add <file>...\" to include in what will be committed)"       
+[11] "\tRplots.pdf"                                                             
+[12] "\tcronlog.txt"                                                            
+[13] ""                                                                         
+[14] "no changes added to commit (use \"git add\" and/or \"git commit -a\")"    
+[15] "No changes to commit"                                                     
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f get: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f store: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+Everything up-to-date
+character(0)
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+Loading required package: DBI
+Warning messages:
+1: package ‘RMySQL’ was built under R version 4.0.5 
+2: package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:data.table’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+In for (ns in list(...)) namespaceImportFrom(self, asNamespace(ns),  :
+  call dbDisconnect() when finished working with a connection
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 50 or more warnings (use warnings() to see the first 50)
+character(0)
+ [1] "On branch main"                                                           
+ [2] "Your branch is up to date with 'origin/main'."                            
+ [3] ""                                                                         
+ [4] "Changes not staged for commit:"                                           
+ [5] "  (use \"git add <file>...\" to update what will be committed)"           
+ [6] "  (use \"git restore <file>...\" to discard changes in working directory)"
+ [7] "\tmodified:   auto_report.R"                                              
+ [8] ""                                                                         
+ [9] "Untracked files:"                                                         
+[10] "  (use \"git add <file>...\" to include in what will be committed)"       
+[11] "\tRplots.pdf"                                                             
+[12] "\tcronlog.txt"                                                            
+[13] ""                                                                         
+[14] "no changes added to commit (use \"git add\" and/or \"git commit -a\")"    
+[15] "No changes to commit"                                                     
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f get: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f store: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+Everything up-to-date
+character(0)
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+Loading required package: DBI
+Warning messages:
+1: package ‘RMySQL’ was built under R version 4.0.5 
+2: package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:data.table’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+In for (ns in list(...)) namespaceImportFrom(self, asNamespace(ns),  :
+  call dbDisconnect() when finished working with a connection
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 50 or more warnings (use warnings() to see the first 50)
+character(0)
+[1] "[main 028d73b] 리포트 자동 갱신"                    
+[2] " 2 files changed, 10 insertions(+), 10 deletions(-)"
+[3] " rewrite top_items_report.png (90%)"                
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f get: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f store: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Namsang-Kim/item-report.git        
+To https://github.com/namsang-kim/item-report.git
+   213be10..028d73b  main -> main
+character(0)
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+Loading required package: DBI
+Warning messages:
+1: package ‘RMySQL’ was built under R version 4.0.5 
+2: package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:data.table’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+In for (ns in list(...)) namespaceImportFrom(self, asNamespace(ns),  :
+  call dbDisconnect() when finished working with a connection
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 50 or more warnings (use warnings() to see the first 50)
+character(0)
+[1] "[main 5b0549b] 리포트 자동 갱신"                    
+[2] " 2 files changed, 10 insertions(+), 10 deletions(-)"
+[3] " rewrite top_items_report.png (89%)"                
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f get: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f store: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Namsang-Kim/item-report.git        
+To https://github.com/namsang-kim/item-report.git
+   028d73b..5b0549b  main -> main
+character(0)
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+Loading required package: DBI
+Warning messages:
+1: package ‘RMySQL’ was built under R version 4.0.5 
+2: package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:data.table’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+In for (ns in list(...)) namespaceImportFrom(self, asNamespace(ns),  :
+  call dbDisconnect() when finished working with a connection
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 50 or more warnings (use warnings() to see the first 50)
+character(0)
+[1] "[main ef4feec] 비밀번호 인증 기능 추가 및 리포트 갱신"
+[2] " 2 files changed, 57 insertions(+), 29 deletions(-)"  
+[3] " rewrite index.html (69%)"                            
+[4] " rewrite top_items_report.png (89%)"                  
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f get: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f store: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+To https://github.com/namsang-kim/item-report.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/namsang-kim/item-report.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+character(0)
+attr(,"status")
+[1] 1
+Warning message:
+In system("git push origin main", intern = TRUE) :
+  running command 'git push origin main' had status 1
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+Loading required package: DBI
+Warning messages:
+1: package ‘RMySQL’ was built under R version 4.0.5 
+2: package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:data.table’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+In for (ns in list(...)) namespaceImportFrom(self, asNamespace(ns),  :
+  call dbDisconnect() when finished working with a connection
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 50 or more warnings (use warnings() to see the first 50)
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+character(0)
+attr(,"status")
+[1] 128
+Warning message:
+In system("git pull --rebase", intern = TRUE) :
+  running command 'git pull --rebase' had status 128
+character(0)
+ [1] "On branch main"                                                           
+ [2] "Your branch is ahead of 'origin/main' by 1 commit."                       
+ [3] "  (use \"git push\" to publish your local commits)"                       
+ [4] ""                                                                         
+ [5] "Changes not staged for commit:"                                           
+ [6] "  (use \"git add <file>...\" to update what will be committed)"           
+ [7] "  (use \"git restore <file>...\" to discard changes in working directory)"
+ [8] "\tmodified:   auto_report.R"                                              
+ [9] ""                                                                         
+[10] "Untracked files:"                                                         
+[11] "  (use \"git add <file>...\" to include in what will be committed)"       
+[12] "\tRplots.pdf"                                                             
+[13] "\tcronlog.txt"                                                            
+[14] ""                                                                         
+[15] "no changes added to commit (use \"git add\" and/or \"git commit -a\")"    
+[16] "No changes to commit"                                                     
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f get: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f store: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+To https://github.com/namsang-kim/item-report.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/namsang-kim/item-report.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+character(0)
+attr(,"status")
+[1] 1
+Warning message:
+In system("git push origin main", intern = TRUE) :
+  running command 'git push origin main' had status 1
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+Loading required package: DBI
+Warning messages:
+1: package ‘RMySQL’ was built under R version 4.0.5 
+2: package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:data.table’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+In for (ns in list(...)) namespaceImportFrom(self, asNamespace(ns),  :
+  call dbDisconnect() when finished working with a connection
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 50 or more warnings (use warnings() to see the first 50)
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+character(0)
+attr(,"status")
+[1] 128
+Warning message:
+In system("git pull --rebase", intern = TRUE) :
+  running command 'git pull --rebase' had status 128
+character(0)
+ [1] "On branch main"                                                           
+ [2] "Your branch is ahead of 'origin/main' by 1 commit."                       
+ [3] "  (use \"git push\" to publish your local commits)"                       
+ [4] ""                                                                         
+ [5] "Changes not staged for commit:"                                           
+ [6] "  (use \"git add <file>...\" to update what will be committed)"           
+ [7] "  (use \"git restore <file>...\" to discard changes in working directory)"
+ [8] "\tmodified:   auto_report.R"                                              
+ [9] ""                                                                         
+[10] "Untracked files:"                                                         
+[11] "  (use \"git add <file>...\" to include in what will be committed)"       
+[12] "\tRplots.pdf"                                                             
+[13] "\tcronlog.txt"                                                            
+[14] ""                                                                         
+[15] "no changes added to commit (use \"git add\" and/or \"git commit -a\")"    
+[16] "No changes to commit"                                                     
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f get: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f store: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+To https://github.com/namsang-kim/item-report.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/namsang-kim/item-report.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+character(0)
+attr(,"status")
+[1] 1
+Warning message:
+In system("git push origin main", intern = TRUE) :
+  running command 'git push origin main' had status 1
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+Loading required package: DBI
+Warning messages:
+1: package ‘RMySQL’ was built under R version 4.0.5 
+2: package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:data.table’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+In for (ns in list(...)) namespaceImportFrom(self, asNamespace(ns),  :
+  call dbDisconnect() when finished working with a connection
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 50 or more warnings (use warnings() to see the first 50)
+[1] "HEAD is now at ef4feec 비밀번호 인증 기능 추가 및 리포트 갱신"
+From https://github.com/namsang-kim/item-report
+   5b0549b..520e2b4  main       -> origin/main
+[1] "First, rewinding head to replay your work on top of it..."
+[2] "Applying: 비밀번호 인증 기능 추가 및 리포트 갱신"         
+character(0)
+ [1] "On branch main"                                                                
+ [2] "Your branch is ahead of 'origin/main' by 1 commit."                            
+ [3] "  (use \"git push\" to publish your local commits)"                            
+ [4] ""                                                                              
+ [5] "Untracked files:"                                                              
+ [6] "  (use \"git add <file>...\" to include in what will be committed)"            
+ [7] "\tRplots.pdf"                                                                  
+ [8] "\tcronlog.txt"                                                                 
+ [9] ""                                                                              
+[10] "nothing added to commit but untracked files present (use \"git add\" to track)"
+[11] "No changes to commit"                                                          
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f get: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+f() { /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node /tmp/vscode-remote-containers-f5a4082d-3e44-42b9-aabc-66fb21a7fcde.js git-credential-helper $*; }; f store: 1: /root/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node: Permission denied
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Namsang-Kim/item-report.git        
+To https://github.com/namsang-kim/item-report.git
+   520e2b4..a5fb51e  main -> main
+character(0)
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Error in get_query(to = "prod", glue::glue("\n  SELECT * \n  FROM dashboard.site_mst \n  WHERE site_id = {SITE_ID}"),  : 
+  could not find function "get_query"
+Execution halted
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Error in (function (cond)  : 
+  error in evaluating the argument 'drv' in selecting a method for function 'dbConnect': there is no package called ‘bit’
+Calls: get_query ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+Warning message:
+package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘RMySQL’ was built under R version 4.0.5 
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Error in (function (cond)  : 
+  error in evaluating the argument 'drv' in selecting a method for function 'dbConnect': there is no package called ‘bit’
+Calls: get_query ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+Warning message:
+package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘RMySQL’ was built under R version 4.0.5 
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Error in (function (cond)  : 
+  error in evaluating the argument 'drv' in selecting a method for function 'dbConnect': there is no package called ‘bit’
+Calls: get_query ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+Warning message:
+package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘RMySQL’ was built under R version 4.0.5 
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Error in (function (cond)  : 
+  error in evaluating the argument 'drv' in selecting a method for function 'dbConnect': there is no package called ‘bit’
+Calls: get_query ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+Warning message:
+package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘RMySQL’ was built under R version 4.0.5 
+Error: package or namespace load failed for ‘ggplot2’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ namespace ‘rlang’ 1.0.5 is already loaded, but >= 1.1.0 is required
+In addition: Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+Execution halted
+Warning message:
+package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘RMySQL’ was built under R version 4.0.5 
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+Error in (function (cond)  : 
+  error in evaluating the argument 'drv' in selecting a method for function 'dbConnect': there is no package called ‘bit64’
+Calls: get_query ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+Error in library(bit) : there is no package called ‘bit’
+Execution halted
+
+Attaching package: ‘bit’
+
+The following object is masked from ‘package:base’:
+
+    xor
+
+Warning message:
+package ‘bit’ was built under R version 4.0.5 
+Attaching package bit64
+package:bit64 (c) 2011-2017 Jens Oehlschlaegel
+creators: integer64 runif64 seq :
+coercion: as.integer64 as.vector as.logical as.integer as.double as.character as.bitstring
+logical operator: ! & | xor != == < <= >= >
+arithmetic operator: + - * / %/% %% ^
+math: sign abs sqrt log log2 log10
+math: floor ceiling trunc round
+querying: is.integer64 is.vector [is.atomic} [length] format print str
+values: is.na is.nan is.finite is.infinite
+aggregation: any all min max range sum prod
+cumulation: diff cummin cummax cumsum cumprod
+access: length<- [ [<- [[ [[<-
+combine: c rep cbind rbind as.data.frame
+WARNING don't use as subscripts
+WARNING semantics differ from integer
+for more help type ?bit64
+
+Attaching package: ‘bit64’
+
+The following objects are masked from ‘package:base’:
+
+    :, %in%, colSums, is.double, match, order, rank, rowSums
+
+Warning message:
+package ‘bit64’ was built under R version 4.0.5 
+Warning message:
+package ‘DBI’ was built under R version 4.0.5 
+Error in library(RMySQL) : there is no package called ‘RMySQL’
+Execution halted
+
+Attaching package: ‘bit’
+
+The following object is masked from ‘package:base’:
+
+    xor
+
+Warning message:
+package ‘bit’ was built under R version 4.0.5 
+Attaching package bit64
+package:bit64 (c) 2011-2017 Jens Oehlschlaegel
+creators: integer64 runif64 seq :
+coercion: as.integer64 as.vector as.logical as.integer as.double as.character as.bitstring
+logical operator: ! & | xor != == < <= >= >
+arithmetic operator: + - * / %/% %% ^
+math: sign abs sqrt log log2 log10
+math: floor ceiling trunc round
+querying: is.integer64 is.vector [is.atomic} [length] format print str
+values: is.na is.nan is.finite is.infinite
+aggregation: any all min max range sum prod
+cumulation: diff cummin cummax cumsum cumprod
+access: length<- [ [<- [[ [[<-
+combine: c rep cbind rbind as.data.frame
+WARNING don't use as subscripts
+WARNING semantics differ from integer
+for more help type ?bit64
+
+Attaching package: ‘bit64’
+
+The following objects are masked from ‘package:base’:
+
+    :, %in%, colSums, is.double, match, order, rank, rowSums
+
+Warning message:
+package ‘bit64’ was built under R version 4.0.5 
+Warning message:
+package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘RMySQL’ was built under R version 4.0.5 
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:bit’:
+
+    symdiff
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+The following object is masked from ‘package:bit’:
+
+    setattr
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+There were 50 or more warnings (use warnings() to see the first 50)
+character(0)
+✅ 변경사항 커밋 완료
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+⚠️ git pull 실패 - 충돌 가능성 있음. 푸시 중단됨.
+Warning message:
+In system("git pull --rebase", intern = TRUE, ignore.stderr = FALSE) :
+  running command 'git pull --rebase' had status 128
+
+Attaching package: ‘bit’
+
+The following object is masked from ‘package:base’:
+
+    xor
+
+Warning message:
+package ‘bit’ was built under R version 4.0.5 
+Attaching package bit64
+package:bit64 (c) 2011-2017 Jens Oehlschlaegel
+creators: integer64 runif64 seq :
+coercion: as.integer64 as.vector as.logical as.integer as.double as.character as.bitstring
+logical operator: ! & | xor != == < <= >= >
+arithmetic operator: + - * / %/% %% ^
+math: sign abs sqrt log log2 log10
+math: floor ceiling trunc round
+querying: is.integer64 is.vector [is.atomic} [length] format print str
+values: is.na is.nan is.finite is.infinite
+aggregation: any all min max range sum prod
+cumulation: diff cummin cummax cumsum cumprod
+access: length<- [ [<- [[ [[<-
+combine: c rep cbind rbind as.data.frame
+WARNING don't use as subscripts
+WARNING semantics differ from integer
+for more help type ?bit64
+
+Attaching package: ‘bit64’
+
+The following objects are masked from ‘package:base’:
+
+    :, %in%, colSums, is.double, match, order, rank, rowSums
+
+Warning message:
+package ‘bit64’ was built under R version 4.0.5 
+Warning message:
+package ‘DBI’ was built under R version 4.0.5 
+Warning message:
+package ‘RMySQL’ was built under R version 4.0.5 
+Warning message:
+package ‘ggplot2’ was built under R version 4.0.5 
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:bit’:
+
+    symdiff
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.0.5 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.0.5 
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+The following object is masked from ‘package:bit’:
+
+    setattr
+
+Warning message:
+package ‘data.table’ was built under R version 4.0.5 
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Warning message:
+package ‘glue’ was built under R version 4.0.5 
+There were 50 or more warnings (use warnings() to see the first 50)
