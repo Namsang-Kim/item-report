@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -6,52 +5,12 @@
   <title>CTR / CVR 상승 상품 리포트</title>
   <style>
     body { font-family: sans-serif; text-align: center; margin: 2em; }
-    img { max-width: 90%; margin-top: 2em; }
-    table { margin: auto; margin-bottom: 3em; border-collapse: collapse; width: 90%; }
-    th, td { padding: 8px; border: 1px solid #ccc; }
-    #auth { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: white;
-            display: flex; flex-direction: column; justify-content: center; align-items: center;
-            z-index: 9999; }
-    input[type="password"] { padding: 0.5em; font-size: 1em; }
-    button { padding: 0.5em 1em; font-size: 1em; margin-top: 1em; }
+    img { max-width: 90%; margin-bottom: 2em; }
   </style>
 </head>
 <body>
-  <div id="auth">
-    <h2>비밀번호를 입력하세요</h2>
-    <input type="password" id="pw" placeholder="비밀번호 입력">
-    <button onclick="checkPassword()">확인</button>
-    <p id="err" style="color: red; display: none;">비밀번호가 틀렸습니다.</p>
-  </div>
-
-  <div id="content" style="display:none;">
-    <h1>CTR / CVR 상승 상품 리포트</h1>
-    <p>최근 14일 기준 CTR/CVR이 상승한 상위 10개 상품의 판매 현황입니다. (<strong>2025-04-14 기준.</strong>)</p>
-    <table border='1' style='width:90%; margin:auto; font-family:sans-serif; border-collapse:collapse;'><thead><tr><th>상품명</th><th>상품 ID</th><th>14일 평균 판매량</th><th>어제 판매량</th></tr></thead><tbody><tr><td>[3 SET] 에어로코튼 맨즈 티셔츠</td><td>11531</td><td>43.86</td><td>100</td></tr>
-<tr><td>소프텐션 하프넥 숏슬리브 크롭티</td><td>9496</td><td>23.14</td><td>329</td></tr>
-<tr><td>NEW 주니어 에어스트 쇼츠 (남)</td><td>11087</td><td>31.64</td><td>362</td></tr>
-<tr><td>[1&1] 에어스트 맨즈 4부 쇼츠</td><td>14207</td><td>17.36</td><td>43</td></tr>
-<tr><td>에어데님 맨즈 스트레이트핏 청바지</td><td>14099</td><td>34.69</td><td>57</td></tr>
-<tr><td>[전지현 착용] 숏슬리브 크롭티 & 와이드 팬츠</td><td>14222</td><td>44.83</td><td>119</td></tr>
-<tr><td>[3 SET] NEW 에어리핏 숏슬리브 (오버핏, 스탠다드핏, 슬림핏)</td><td>11874</td><td>171.00</td><td>369</td></tr>
-<tr><td>[1&1] 아이스브리드 맨즈 백포켓 조거팬츠</td><td>14039</td><td>31.36</td><td>61</td></tr>
-<tr><td>에어스트 배기핏 팬츠</td><td>13874</td><td>32.86</td><td>61</td></tr>
-<tr><td>에어스트 썸머 조거팬츠</td><td>6571</td><td>49.57</td><td>116</td></tr></tbody></table>
-    <img src="top_items_report.png" alt="Top 상품 리포트">
-  </div>
-
-  <script>
-    function checkPassword() {
-      const correct = "11790";
-      const input = document.getElementById("pw").value;
-      if (input === correct) {
-        document.getElementById("auth").style.display = "none";
-        document.getElementById("content").style.display = "block";
-      } else {
-        document.getElementById("err").style.display = "block";
-      }
-    }
-  </script>
+  <h1>CTR / CVR 상승 상품 리포트</h1>
+  <p>2025-04-14 12:57:34 기준 최근 14일 CTR/CVR 상승 상위 상품입니다.</p>
+  <img src="top_items_report.png" alt="Top 상품 리포트">
 </body>
 </html>
-
