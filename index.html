@@ -7,10 +7,19 @@
     body { font-family: sans-serif; text-align: center; margin: 2em; }
     img { max-width: 95%; margin-bottom: 2em; }
   </style>
+  <script>
+    const PASSWORD = "11790";
+    const input = prompt("비밀번호를 입력하세요:");
+    if (input !== PASSWORD) {
+      alert("비밀번호가 틀렸습니다. 접근이 차단됩니다.");
+      document.write("🚫 접근이 거부되었습니다.");
+      throw new Error("비밀번호 오류로 접근 차단됨");
+    }
+  </script>
 </head>
 <body>
   <h1>CTR / CVR 상승 상품 리포트</h1>
-  <p>2025-04-15 09:00:04 기준 최근 14일 CTR/CVR이 상승한 상위 10개 상품입니다.</p>
+  <p>2025-04-15 09:05:03 기준 최근 14일 CTR/CVR이 상승한 상위 10개 상품입니다.</p>
   <img src="top_10_table.png" alt="Top10 상품 표">
   <img src="top_10_items_report.png" alt="Top10 상품 추이 그래프">
 </body>
