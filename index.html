@@ -63,7 +63,7 @@
 
   <div id="report" class="tabcontent">
     <h2>CTR / CVR 상승 상품 리포트</h2>
-    <p>2025-04-15 14:52:03 기준 최근 14일 CTR/CVR이 상승한 상위 10개 상품입니다.</p>
+    <p>2025-04-15 15:27:03 기준 최근 14일 CTR/CVR이 상승한 상위 10개 상품입니다.</p>
     <img src="top_10_table.png" alt="Top10 상품 표">
     <img src="top_10_items_report.png" alt="Top10 상품 추이 그래프">
   </div>
@@ -93,31 +93,6 @@
   </div>
 
 </div>
-
-<!-- 🔐 비밀번호 인증 + 탭 기능 -->
-<script>
-  const PASSWORD = "11790";
-
-  function checkPassword() {
-    const input = document.getElementById("pw").value;
-    if (input === PASSWORD) {
-      document.getElementById("auth-box").style.display = "none";
-      document.getElementById("main-content").style.display = "block";
-      document.getElementById("defaultOpen").click();  // 인증 후 기본탭 열기
-    } else {
-      alert("비밀번호가 틀렸습니다.");
-    }
-  }
-
-  function openTab(evt, tabName) {
-    const tabcontent = document.getElementsByClassName("tabcontent");
-    const tablinks = document.getElementsByClassName("tablinks");
-    for (let i = 0; i < tabcontent.length; i++) tabcontent[i].style.display = "none";
-    for (let i = 0; i < tablinks.length; i++) tablinks[i].classList.remove("active");
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.classList.add("active");
-  }
-</script>
 
 </body>
 </html>
