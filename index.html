@@ -46,24 +46,21 @@
 </head>
 <body>
 
-<!-- 🔐 인증 박스 -->
 <div id="auth-box">
   <h2>비밀번호를 입력하세요</h2>
   <input type="password" id="pw" placeholder="비밀번호 입력" />
   <button onclick="checkPassword()">확인</button>
 </div>
 
-<!-- 📊 전체 콘텐츠 -->
 <div id="main-content" style="display: none;">
-
   <div class="tab">
-    <button class="tablinks" onclick="openTab(event, &apos;report&apos;)" id="defaultOpen">CTR / CVR 상승 상품</button>
-    <button class="tablinks" onclick="openTab(event, &apos;orders&apos;)">구매 회차별 주문 데이터</button>
+    <button class="tablinks" onclick='openTab(event, "report")' id="defaultOpen">CTR / CVR 상승 상품</button>
+    <button class="tablinks" onclick='openTab(event, "orders")'>구매 회차별 주문 데이터</button>
   </div>
 
   <div id="report" class="tabcontent">
     <h2>CTR / CVR 상승 상품 리포트</h2>
-    <p>2025-04-15 15:28:03 기준 최근 14일 CTR/CVR이 상승한 상위 10개 상품입니다.</p>
+    <p>2025-04-15 16:13:03 기준 최근 14일 CTR/CVR이 상승한 상위 10개 상품입니다.</p>
     <img src="top_10_table.png" alt="Top10 상품 표">
     <img src="top_10_items_report.png" alt="Top10 상품 추이 그래프">
   </div>
@@ -87,12 +84,37 @@
       3/16(일) 시점에서 최근 1년간의 구매 회차별 모수 제공
     </div>
 
-        <div style="margin-top: 12px; text-align: left;">
+    <div style="margin-top: 12px; text-align: left;">
       <img src="order_by_round.png" alt="구매 회차별 주문 데이터" style="max-width: 95%; display: block; margin-left: 0;">
     </div>
   </div>
-
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/js-sha256@0.9.0/src/sha256.min.js"></script>
+<script>
+  const HASHED_PASSWORD = "0ca9e8f929aaccc7236250b4d5e4eeb1584e3199e814ac6a3b66cdfd88b435db";
+
+  function checkPassword() {
+    const input = document.getElementById("pw").value;
+    const hashedInput = sha256(input);
+    if (hashedInput === HASHED_PASSWORD) {
+      document.getElementById("auth-box").style.display = "none";
+      document.getElementById("main-content").style.display = "block";
+      document.getElementById("defaultOpen")?.click();
+    } else {
+      alert("비밀번호가 틀렸습니다.");
+    }
+  }
+
+  function openTab(evt, tabName) {
+    const tabcontent = document.getElementsByClassName("tabcontent");
+    const tablinks = document.getElementsByClassName("tablinks");
+    for (let i = 0; i < tabcontent.length; i++) tabcontent[i].style.display = "none";
+    for (let i = 0; i < tablinks.length; i++) tablinks[i].classList.remove("active");
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.classList.add("active");
+  }
+</script>
 
 </body>
 </html>
